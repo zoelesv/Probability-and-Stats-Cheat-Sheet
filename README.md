@@ -20,16 +20,12 @@ This section summary is a work in progress.
 |------|--------|-------------|
 | Sample space | S | a list of possible outcomes (make sure they are unique values) |
 | A specific event | (A, B, C,...) | a subcollection of outcomes in S |
-| Simple event | A capital letter | an event that contains one outcome that cannot be
-broken down any further |
+| Simple event | A capital letter (A, B, C,...) | an event that contains one outcome that cannot be broken down any further |
 | Compound event | S | an event that contains more than one outcome |
-| Complementary event | denoted by a capital letter with an apostrophe A′ | this is an event that contains all outcomes not in the original event (A′ contains all
-outcomes not in A) |
-| Union of 2 events (A or B)| A ∪ B | an event that contains all outcomes in
-A, B, or both (make sure not to double-count outcomes) |
-| Intersection of 2 events (A and B) | A ∩ B | an event that contains only the
-outcomes in both A and B |
-| The probability of A | P(A)  | A real value that discribes the chance of event A has occured: P(A) = number of outcomes in A / number of equally-likely outcomes in S |
+| Complementary event | A′ | an event that contains all outcomes not in the original event (A′ contains all outcomes not in A) |
+| Union of 2 events (A or B)| A ∪ B | an event that contains all outcomes in A, B, or both (make sure not to double-count outcomes) |
+| Intersection of 2 events (A and B) | A ∩ B | an event that contains only the outcomes in both A and B |
+| The probability of A | P(A) | the chance of event A has occured: P(A) = number of outcomes in A / number of equally-likely outcomes in S |
 
 ## Random Experiments and Outcome Space
     - Probability theory considers experiements events for which outcomes are not certain, but stochastic 
