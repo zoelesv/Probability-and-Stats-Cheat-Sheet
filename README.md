@@ -21,7 +21,7 @@ This section summary is a work in progress.
 | Name | Symbol | Description |
 |------|--------|-------------|
 | Sample space | S | a list of possible outcomes (make sure they are unique values) |
-| A specific event | (A, B, C,... | a subcollection of outcomes in S |
+| A specific event | A, B, C,... | a subcollection of outcomes in S |
 | Simple event | A, B, C,... | an event that contains one outcome that cannot be broken down any further |
 | Compound event | S | an event that contains more than one outcome |
 | Complementary event | A', Ac | an event that contains all outcomes not in the original event (A′ contains all outcomes not in A) |
@@ -45,22 +45,30 @@ This section summary is a work in progress.
 
 * Probability is a function for each event A: P(A) 
 * The function P satisfies 3 axioms:
+  
         1. P(A) ≥ 0  for any A ⊆ S
         2. P(S) = 1
-        3. If A1, A2, A3 ... are a sequence of mutually exclusive events(Ai ∩ Aj = ∅, ∀i≠j), then P(all events A)=sum(P(Ai))
-* Theorem 1: The complement rule for any event A,
+        3. If A1, A2, A3 ... are a sequence of mutually exclusive events <br>(Ai ∩ Aj = ∅, ∀i≠j), then P(all events A)=sum(P(Ai))
+* Theorem 1: The complement rule for any event A
+  
         P(A) = 1 - P(A')
 * Theorem 2: Probability of the empty set
+
         P(Ø)=0
 * Theorem 3: Monotonicity
+  
         if A ⊆ B, then P(A) ≤ P(B)
 * Theorem 4: The numeric bound
+
         0 ≤ P(A) ≤ 1 , ∀A
 * Theorem 5: Inclusion-Exclusion Principal
+  
         P(A ∪ B)=P(A) + P(B) - P(A ∩ B)
 * Theorem 6:
+  
         P(A ∪ B ∪ C)=P(A) + P(B) + P(C) - P(A ∩ B) - P(A ∩ C) - P(B ∩ C) + P(A(A ∩ B ∩ C)
 * Theorem 7: Equally Likely Theorem
+  
         Let S be a discrete and finite sample space, i.e S= sum of n events then P(Si)=1/n
 
 ## Conditional Probability
@@ -78,7 +86,7 @@ This section summary is a work in progress.
 * Sampling or without reolacement:
   1. Without replacement:
         Selectiion probabilities are not independent
-  3. With replacement
+  3. With replacement:
         Put the first selection back so it's available for the second selection
   4. 5% rule
         if your sample is less than 5%, you can approximate these events as independent
