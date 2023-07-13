@@ -48,7 +48,7 @@ This section summary is a work in progress.
   
         1. P(A) ≥ 0  for any A ⊆ S
         2. P(S) = 1
-        3. If A1, A2, A3 ... are a sequence of mutually exclusive events <br>(Ai ∩ Aj = ∅, ∀i≠j), then P(all events A)=sum(P(Ai))
+        3. If A1, A2, A3 ... are a sequence of mutually exclusive events (Ai ∩ Aj = ∅, ∀i≠j), then P(all events A)=sum(P(Ai))
 * Theorem 1: The complement rule for any event A
   
         P(A) = 1 - P(A')
@@ -82,7 +82,7 @@ This section summary is a work in progress.
 
 * Events are independent if the occurrence of one event does not affect the probability of occurrence for the other events.
 * B is independent from A if P(B|A) = P(B)
-* Multiplication rule for independent events: P(A and B) = P(A) x P(B)
+* Multiplication rule for independent events: P(A and B) = P(A∩B) = P(A) x P(B)
 * Sampling or without reolacement:
   1. Without replacement:
         Selectiion probabilities are not independent
@@ -90,17 +90,19 @@ This section summary is a work in progress.
         Put the first selection back so it's available for the second selection
   4. 5% rule
         if your sample is less than 5%, you can approximate these events as independent
+* n choose k (n k)=n!/(k!(n-k)!)
   
 ## Bayes's Theorem
 
 * Bayes's Theorem --> Bayesian Inference
     to use the prior information  (P(cancer)) and posterior information (P(test|cancer)) to predict new observation's outcome. (P(cancer|test)new patient)
 * Bayes's Theorem
-    1. P(B|A) = P(B)P(A|B)/P(A)
-       P(B|A) represents the probability of hypothesis B given evidence A
-       P(A|B) denotes the probability of observing evidence A given the hypothesis B
-       P(B) is the prior probability of hypothesis B
-       P(A) represents the probability of observing evidence A
+    1. P(B|A) = P(B)P(A|B)/P(A)<br>
+       P(B|A) represents the probability of hypothesis B given evidence A<br>
+       P(A|B) denotes the probability of observing evidence A given the hypothesis B<br>
+       P(B) is the prior probability of hypothesis B<br>
+       P(A) represents the probability of observing evidence A<br>
 
     2. P(Bk|A) = P(Bk).P(A|Bk)/P(A) = P(Bk).P(A|Bk)/ Sum of P(A ∩ Bi) = P(Bk)P(A|Bk)/Sum of P(Bi)P(A|Bi)
+  
   
