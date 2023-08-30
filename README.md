@@ -1,6 +1,7 @@
 # Probability and Stats Cheat Sheet
 
 This section summary is a work in progress.
+For more practice problems and solutions, please visit [https://www.probabilitycourse.com/](https://www.probabilitycourse.com/)
 
 ![YAP](https://media.giphy.com/media/B5a9bkLouElOM/giphy.gif)
 
